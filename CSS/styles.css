@@ -43,24 +43,32 @@ h2 {
 
 .section-1 {
     grid-area: section-1;
+    padding-bottom: 10px;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgb(168, 168, 168);
 }
 
 .section-2 {
     grid-area: section-2;
+    padding-bottom: 10px;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgb(168, 168, 168);
 }
 
 .section-3 {
     grid-area: section-3;
+    padding-bottom: 10px;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgb(168, 168, 168);
 }
 
 .section-4 {
     grid-area: section-4;
+    padding-bottom: 10px;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgb(168, 168, 168);
 }
