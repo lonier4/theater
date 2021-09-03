@@ -1,0 +1,76 @@
+.container {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar {
+    background-color: black;
+
+}
+
+a {
+    color:white;
+}
+
+h2 {
+    color: white;
+}
+
+.month {
+    border: 2px solid rgb(168, 168, 168);
+    background-color: rgb(235, 232, 232);
+    padding-left: 10px;
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    
+    
+    grid-template-areas: 
+    "section-1 section-1 section-1"
+    "section-2 section-2 section-2"
+    "section-3 section-3 section-3"
+    "section-4 section-4 section-4";   
+    gap: 30px;
+}
+
+
+
+.section-1 {
+    grid-area: section-1;
+    
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.section-2 {
+    grid-area: section-2;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.section-3 {
+    grid-area: section-3;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.section-4 {
+    grid-area: section-4;
+    border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+#map {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    justify-content: space-around;
+    background-color: black;
+    color:white;
+}
